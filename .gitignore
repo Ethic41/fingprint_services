@@ -1,0 +1,10 @@
+.idea
+.vscode
+vendor
+node_modules
+.env
+storage-key.json
+*pycache*
+__pycache__
+vendor
+
