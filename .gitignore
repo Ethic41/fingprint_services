@@ -2,6 +2,7 @@
 .vscode
 vendor
 node_modules
+helpers
 .env
 storage-key.json
 *pycache*
