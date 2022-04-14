@@ -53,7 +53,7 @@ function check_duplicate($pre_fmd_string, $enrolled_fmd_string_list){
     $verification_request->setFmdCandidates($enrolled_fmds);
 
     list($response, $status) = $client->CheckDuplicate($verification_request)->wait();
-    echo $response->getIsDuplicate();
+    return $response->getIsDuplicate();
 
 }
 
